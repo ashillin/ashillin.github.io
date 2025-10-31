@@ -1,0 +1,233 @@
+
+body {
+    background-color: #132440;
+    color: #132440;
+}
+
+        h4 {
+        text-align: center;
+        font-size: 2.5em;
+        font-family: "Courier Prime", monospace;
+        font-weight: normal;
+        }
+            p, h3 {
+                font-family: "Monomaniac One", sans-serif;
+                text-align: left;
+                text-decoration-line: indent;
+                Color: #E62727;
+            }
+            a:hover {
+                color:aquamarine;
+                background-color:aliceblue;
+            }
+            #heading {
+                background-color:#FBF3D1;
+                padding: 2px;
+                border-radius: 10px;
+                border-style: solid;
+                border-width: thick;
+                border-color: #E62727;
+                text-align: center;
+                font-family: "Courier", sans-serif;
+                color: #E62727
+                    }
+            #top {
+                font-family: "Monomaniac One", sans-serif;
+                text-align: left;
+                font-size: 20px;
+                Text-decoration-line: underline;
+                font-style: italic;
+                }
+#sub {
+    text-align: left;
+    text-decoration-line: underline;
+    color: #FFC400
+}
+.header {
+    display: grid;
+    justify-content: space-evenly;
+    grid-auto-flow: column;
+    font-family: "Permanent Marker", cursive;
+    font-size: 22px;
+    font-weight: 400;
+    font-style:normal;
+}
+
+#m:hover {
+    display: inline-block;
+    font-size: 1.5rem;
+    animation: wave 2s ease-in-out infinite;
+}
+#m:hover:nth-child(1) {
+    animation-delay: 0s;
+}
+#m:hovernth-child(2) {
+    animation-delay: 0.2s;
+}
+#m:hover:nth-child(3) {
+    animation-delay: 0.4s;
+}
+#m:hover:nth-child(4) {
+    animation-delay: 0.6s;
+}
+
+@keyframes wave {
+    0%, 100% {
+        transform: translateY(10px);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+#n:hover {
+    display: inline-block;
+    font-size: 1.5rem;
+    animation: wave 2s ease-in-out infinite;
+}
+#n:hover:nth-child(1) {
+    animation-delay: 0s;
+}
+#n:hovernth-child(2) {
+    animation-delay: 0.2s;
+}
+#n:hover:nth-child(3) {
+    animation-delay: 0.4s;
+}
+#n:hover:nth-child(4) {
+    animation-delay: 0.6s;
+}
+
+@keyframes wave {
+    0%, 100% {
+        transform: translateY(10px);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+#o:hover {
+    display: inline-block;
+    font-size: 1.5rem;
+    animation: wave 2s ease-in-out infinite;
+}
+#p:hover {
+    display: inline-block;
+    font-size: 1.5rem;
+    animation: wave 2s ease-in-out infinite;
+}
+#q:hover {
+    display: inline-block;
+    font-size: 1.5rem;
+    animation: wave 2s ease-in-out infinite;
+}
+.fourfive {
+    background-image: url(Images/IMG_3388.jpg);
+    background-position-x: center;
+    background-size: 1200px
+}
+table {
+    text-align: center;
+        font-size: em;
+        font-family: "Courier Prime", monospace;
+        font-weight: normal;
+        background-color: #132440;
+        color: #FFC400
+}
+table, th, td { border: solid #3B9797;
+}
+a:link {
+color: #E62727;
+}
+/* visited link */
+a:visited {
+color: #FFF58A;
+}
+/* mouse over link */
+a:hover {
+background-color: transparent;
+}
+/* selected link */
+a:active {
+color: #0000FF;
+}
+.fivefour {
+    font-family: "Permanent Marker", cursive;
+    color: #A72703;
+    font-weight: 400;
+    font-style:normal;
+    background-color:rgba(251, 243, 209, 0.7);
+    border-radius:10px;
+}
+#ff {
+    font-family: "Permanent Marker", cursive;
+    color: #E62727;
+    font-weight: 400;
+    font-style:normal;
+    background-color:rgba(251, 243, 209, 0.7);
+    border-radius:10px;
+}
+.smheading {
+    background-color:#FBF3D1;
+                padding: 2px;
+                border-radius: 10px;
+                border-bottom: solid;
+                border-width: thick;
+                border-color: #E62727;
+}
+#ethel {
+     background-image: url(Images/IMG_3573.jpg);
+    background-position-x: center;
+    background-size: 650px;
+    background-position-y: center;
+}
+.h3 {
+    background-color:#FBF3D1;
+                padding: 2px;
+                border-radius: 10px;
+                border-bottom: solid;
+                border-width: thick;
+                border-color: #E62727;
+}
+.h2 {
+    background-color:#FBF3D1;
+                padding: 2px;
+                border-radius: 10px;
+                border-bottom: solid;
+                border-width: thick;
+                border-color: #E62727;
+}
+.lgheading{
+    background-color:#FBF3D1;
+                padding: 2px;
+                border-radius: 10px;
+                border-style: solid;
+                border-width: thick;
+                border-color: #E62727;
+                text-align: center;
+}
+.ol{
+    font-family: "Permanent Marker", cursive;
+    color: #A72703;
+    font-weight: 400;
+    font-style:normal;
+    background-color:rgba(251, 243, 209, 0.7);
+    border-radius:10px;
+}
+#utada {
+    background-image: url(Images/IMG_2682.jpg);
+    background-position-x: center;
+    background-size: 650px;
+    background-position-y: center;
+}
+#ama {
+    background-image: url(Images/IMG_3634.jpg);
+    background-position-x: center;
+    background-size: 650px;
+    background-position-y: center;
+}
+#vay {
+    background-image: url(Images/IMG_3822.jpg);
+    background-position-x: center;
+    background-size: 650px;
+    background-position-y: center;
+}
